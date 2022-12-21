@@ -1,0 +1,19 @@
+.permission-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.permission-denied {
+    padding: 2rem;
+    text-align: center;
+}
+.permission-denied-icon {
+    height: 20vw;
+    width: 20vw;
+    background-image: url("../../assets/images/permission_denied.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}

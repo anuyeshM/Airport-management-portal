@@ -1,0 +1,98 @@
+.login-page {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ebeef7;
+    /* background-image: url('../../assets/images/login-background-screen.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw 100vh; */
+}
+.login-page .login-form {
+    margin: 10% auto;
+    padding: 2rem;
+    width: 45rem;
+    height: 25rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 #212529;  
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 21rem 27rem;
+    border-radius: 1%;
+    background-image: url('../../assets/images/login_image.jpg');
+  
+}
+.login-page .login-form .login-view-area {
+    width: 50%;
+}
+.login-page .login-form .login-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login-page .login-form .login-title {
+    font-size: 2rem;
+    background: -webkit-linear-gradient( 30deg, #0b0b0b 30%, #050505 80% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.login-page .login-form .dynamic-form {
+    margin-top: 10%;
+}
+.login-page .wrapper {
+    margin: 1rem auto;
+}
+.login-page .login-email {
+    width: 100%;
+    height: 100%;
+}
+.login-page .login-form .input-text {
+    /* margin: 0 20px 0 0; */
+    width: 6rem;
+    height: 100%;
+    line-height: 2rem;
+    /* text-align: right; */
+    color: #1f2e3d;
+    font-weight: bold;
+}
+.login-page .login-options {
+    display: flex;
+    margin: 1rem 0rem 1rem 9rem;
+    justify-content: space-between;
+}
+.login-page .login-action {
+    margin: 3rem 10rem auto;
+    width: 17rem;
+}
+
+.login-page .login-email {
+    width: 100%;
+    height: 100%;
+}
+
+.login-page .forgot-password-action {
+    margin: 2rem auto;
+    width: 100%;
+}
+.login-page .login-page-submit {
+    margin: 1rem 5rem auto ;
+    width: 17rem;
+    text-align: center;
+}  
+.login-page .login-page-goback {
+    margin: 1rem 5rem auto ;
+    width: 17rem;
+    text-align: center;
+}
+.login-page .pr-content {
+}
+
+.login-page .pr-content .pr-reset {
+}
+
+.login-page .pr-content .pr-validation {
+}
